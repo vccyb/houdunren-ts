@@ -1,9 +1,10 @@
+"use strict";
 var SexType;
 (function (SexType) {
     SexType[SexType["BOY"] = 6] = "BOY";
     SexType[SexType["GIRL"] = 7] = "GIRL";
 })(SexType || (SexType = {}));
-var user = {
+let user = {
     name: '后盾人',
     sex: 1
 };
